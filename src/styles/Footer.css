@@ -1,0 +1,14 @@
+/* Footer.css */
+
+.app-footer {
+    background-color: #9370DB; /* Medium Purple */
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .app-footer p {
+    font-size: 0.9rem;
+  }
+  

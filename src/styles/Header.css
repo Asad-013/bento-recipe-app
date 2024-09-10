@@ -1,0 +1,16 @@
+/* Header.css */
+
+.app-header {
+    background-color: #9370DB; /* Medium Purple */
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .app-header h1 {
+    color: #FFFFFF;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+  }
+  

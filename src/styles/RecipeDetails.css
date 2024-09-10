@@ -1,0 +1,127 @@
+/* RecipeDetails.css */
+
+.recipe-details {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* White */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.recipe-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-details h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #9370DB; /* Medium Purple */
+}
+
+.recipe-details p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2F4F4F; /* Dark Slate Gray */
+}
+
+/* Additional Styling for Ingredients and Instructions */
+.ingredients-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  white-space: pre-wrap;
+}
+/* RecipeDetails.css */
+
+.recipe-details {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* White */
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.back-button {
+  background-color: #9370DB; /* Medium Purple */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button:hover {
+  background-color: #DA70D6; /* Orchid */
+}
+.back-icon {
+  margin-right: 8px;
+}
+.recipe-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-details h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #9370DB; /* Medium Purple */
+}
+
+.recipe-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #9370DB; /* Medium Purple */
+}
+
+.recipe-details p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2F4F4F; /* Dark Slate Gray */
+}
+
+.ingredients-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.instructions {
+  white-space: pre-wrap;
+}
+
+/* Loader Styles (same as in RecipeGrid.css) */
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #9370DB; /* Medium Purple */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

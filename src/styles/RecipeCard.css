@@ -1,0 +1,43 @@
+/* RecipeCard.css */
+
+.recipe-card {
+  background-color: #FFFFFF; /* White */
+  border: 1px solid #E6E6FA; /* Lavender */
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #9370DB; /* Medium Purple */
+}
+
+.details-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #9370DB; /* Medium Purple */
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.details-link:hover {
+  background-color: #DA70D6; /* Orchid */
+}
